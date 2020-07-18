@@ -1,0 +1,14 @@
+{
+    "parent":"extrashields:item/shield",
+    "textures":{
+        "shield":"extrashields:item/night_shield"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "blocking": 1
+            },
+            "model": "extrashields:item/night_shield_blocking"
+        }
+    ]
+}

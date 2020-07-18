@@ -1,0 +1,14 @@
+{
+    "parent":"extrashields:item/shield",
+    "textures":{
+        "shield":"extrashields:item/example_shield"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "blocking": 1
+            },
+            "model": "extrashields:item/example_shield_blocking"
+        }
+    ]
+}

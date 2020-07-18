@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "extrashields",
+  "version": "${version}",
+
+  "name": "Extra Shields",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Dandin87"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/dandin87/ExtraShields"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/extrashields/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dandin87.extrashields.ExtraShields"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "fabricshieldlib": "*"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
